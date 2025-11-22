@@ -30,19 +30,19 @@ Possible Errors:
 
 -- NOTE: This has been updated from the video to fix issues with encoding
 COPY company_dim
-FROM 'C:\Data Analytics\SQL\SQL_Project_Job_Data_Analysis\csv_files\company_dim.csv'
+FROM 'D:\Data Analytics\SQL\Beginner to Intermediate\SQL_Practice\csv_files\company_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 COPY skills_dim
-FROM 'C:\Data Analytics\SQL\SQL_Project_Job_Data_Analysis\csv_files\skills_dim.csv'
+FROM 'D:\Data Analytics\SQL\Beginner to Intermediate\SQL_Practice\csv_files\skills_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 COPY job_postings_fact
-FROM 'C:\Data Analytics\SQL\SQL_Project_Job_Data_Analysis\csv_files\job_postings_fact.csv'
+FROM 'D:\Data Analytics\SQL\Beginner to Intermediate\SQL_Practice\csv_files\job_postings_fact.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 COPY skills_job_dim
-FROM 'C:\Data Analytics\SQL\SQL_Project_Job_Data_Analysis\csv_files\skills_job_dim.csv'
+FROM 'D:\Data Analytics\SQL\Beginner to Intermediate\SQL_Practice\csv_files\skills_job_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 SELECT *

@@ -20,14 +20,14 @@ INNER JOIN skills_dim AS skills
 WHERE
     -- filtering for any roles with 'Data Analyst' in the title
     job_postings.job_title ILIKE '%Data Analyst%'
-    AND
+    -- AND
     -- filtering for remote jobs
     -- job_postings.job_work_from_home = TRUE
     AND
     -- filtering for job postings with yearly salaries mentioned
     job_postings.salary_year_avg IS NOT NULL 
 GROUP BY
-    skill_id,skills.skills
+    skills.skill_id,skills.skills
 ORDER BY
     yearly_avg_salary DESC
 LIMIT 25 ;

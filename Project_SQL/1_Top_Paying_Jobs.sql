@@ -17,9 +17,9 @@ SELECT
     job_posted_date::DATE AS posted_date,
     salary_year_avg AS yearly_avg_salary
 FROM
-    job_postings_fact
+    job_postings_fact AS job_postings
 LEFT JOIN company_dim AS companies
-    ON job_postings_fact.company_id = companies.company_id    
+    ON job_postings.company_id = companies.company_id    
 WHERE
     -- filtering for any roles with 'Data Analyst' in the title
     job_postings.job_title ILIKE '%Data Analyst%'
