@@ -32,3 +32,4 @@ WHERE
 ORDER BY
     yearly_avg_salary DESC
 LIMIT 20 ;    
+

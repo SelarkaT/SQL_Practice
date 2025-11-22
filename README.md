@@ -1,2 +1,7 @@
-TO DO List:
-  Update the contents of this later
+#  Introduction
+
+# Background
+# Tools Used
+# The Analysis
+# Learnings
+# Conclusion

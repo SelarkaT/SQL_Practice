@@ -53,7 +53,7 @@ LIMIT 25 ;
 -- Result Tables as json
 
     Top Demanded Skills -
-    
+
     [
         {
             "skill_name": "sql",
@@ -108,6 +108,7 @@ LIMIT 25 ;
     ]
 
     Top Paying Skills -
+    
     [
         {
             "skill_name": "yarn",

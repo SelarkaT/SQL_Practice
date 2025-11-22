@@ -62,10 +62,10 @@ Insights of result's table based on CHATGPT:
 
 -- Skill Insights Summary
     1. Most In-Demand Skills (by frequency)
-        Rank	Skill	Frequency
-        1️⃣	     SQL	    17
+        Rank	Skill	     Frequency
+        1️⃣	     SQL	      17
         2️⃣	     Python	    15
-        3️⃣	     Tableau	13
+        3️⃣	     Tableau	  13
         4️⃣	     R	         9
         5️⃣	     Excel	     5
 
